@@ -1,0 +1,53 @@
+.App {
+}
+
+.auto-complete {
+  margin: 50px;
+  width: 300px;
+}
+
+.us-state-input {
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 18px;
+  border: 2px solid grey;
+  width: 100%;
+  outline: none;
+}
+
+.us-state-input:focus {
+  border-color: #08d1ff;
+}
+
+.list-wrapper {
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+.list-items {
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  width: 100%;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.list-items:hover {
+  background: #00add4;
+  color: #fff;
+}
+
+.list-items:first-child {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.list-items:last-child {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-width: 1px;
+  box-shadow: 0px 9px 15px 1px rgba(171, 171, 171, 0.69);
+}
